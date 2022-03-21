@@ -1,0 +1,6 @@
+Name: Adam | Age: 28 | Job Title: Baker
+Name: Beatrice | Age: 23 | Job Title: Engineer
+Name: Carl | Age: 25 | Job Title: Dancer
+Name: Edith | Age: 38 | Job Title: Teacher
+Name: Fred | Age: 49 | Job Title: Chef
+Name: Gemma | Age: 29 | Job Title: Mechanic
