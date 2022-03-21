@@ -3,12 +3,15 @@ package com.lms;
 import java.io.IOException;
 
 import com.lms.lookup.Lookup;
+import com.lms.menu.Menu;
 import com.lms.person.Person;
 
 public class Runner {
 	public static void main(String[] args) throws IOException {
 		Lookup lookup = new Lookup();
+		Menu menu = new Menu();
 		
+
 		Person person1 = new Person("Adam", 28, "Baker");
 		Person person2 = new Person("Beatrice", 23, "Engineer");
 		Person person3 = new Person("Carl", 25, "Dancer");
@@ -26,6 +29,8 @@ public class Runner {
 		//lookup.printAll();
 		//lookup.filter("Sam");
 		//lookup.writeToFile();
-		lookup.readFromFile();
+		//lookup.readFromFile();
+		
+		menu.start();
 	}	
 }
